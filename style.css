@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: tahoma , Arial;
+    background-color: rgb(49, 114, 160);
+
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    background-color: rgb(10, 22, 90);
+
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+
+}
+
+.menue-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+
+}
+
+.menue-item{
+    padding: 10px 20px;
+    color: rgb(190, 211, 255);
+    font-size: 18px;
+
+}
+
+.header-left{
+    display: flex;
+
+}
+
+.header-left p {
+    padding: 5px 20px;
+    color: rgb(0, 0, 0);
+    color: rgb(229, 242, 251);
+}
+
+.header-login{
+    background-color: rgb(95, 120, 173);
+    border-radius: 30px;
+    margin-right: 5px;
+
+
+}
+
+.logo {
+    margin-left: 5px;
+    font-size: 19px;
+    color: rgb(245, 251, 255);
+}
+
+.header_bottom {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin: 50px 0 18px;
+    text-shadow: 3px 3px rgb(114, 101, 231) ;
+}
+
+.des {
+    margin-bottom: 10px;
+    line-height: 22px;
+    font-size: 17px;
+    padding-right: 25px;
+    text-align: justify;
+    font-weight: 900;
+}
+
+.info {
+    line-height: 22px;
+    font-size: 17px;
+    padding-right: 25px;
+    text-align: justify;
+    font-weight: 900;
+}
+
+.hbr {
+    margin-top: 60px;
+}
+
+.item_section {
+}
+
+.ih {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    text-shadow: 3px 3px rgb(114, 101, 231) ;
+    font-size: 35px;
+}
+
+.item_list {
+    display: flex;
+    margin: 0 10px;
+    padding-bottom: 40px;
+
+}
+
+.sec {
+    margin: 10px 20px;
+    padding: 17px;
+    border: solid 3px black;
+    border-radius: 8px;
+}
+
+.item_title {
+    text-align: center;
+    text-shadow: 2px 2px rgb(81 69 193);
+}
+
+.pra {
+    text-align: justify;
+    padding-top: 12px;
+    font-size: 17.5px;
+    font-weight: 600;
+
+}
+
+.footer {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 19px;
+
+}
+
+.socials i {
+    font-size: 25px;
+    padding: 3px;
+}
